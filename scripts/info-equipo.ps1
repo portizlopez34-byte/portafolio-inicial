@@ -3,3 +3,5 @@ $fecha = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 
 Write-Output "Equipo: $equipo"
 Write-Output "Fecha local: $fecha"
+
+Write-Host "Usuario actual: $env:USERNAME"
